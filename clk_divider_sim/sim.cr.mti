@@ -1,0 +1,15 @@
+C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_divider
+
+Top level modules:
+	clock_divider
+
+} {} {}} C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_divider_tb
+
+Top level modules:
+	clock_divider_tb
+
+} {} {}}

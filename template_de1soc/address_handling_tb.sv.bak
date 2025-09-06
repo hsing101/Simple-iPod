@@ -1,0 +1,51 @@
+module handle_addr_tb;
+
+reg wait_request;
+reg rst;
+reg clk;
+wire fetch_address;
+
+
+initial begin 
+    clk=0;
+    #10;
+    forever begin 
+        clk=1;#10;
+        clk=0;#10;
+    end 
+end 
+
+initial begin 
+
+    rst =1;
+    #20;
+
+    //should be in state idle 
+
+    rst =0 ;
+    #20; //should be in state FETCH_ADDR fetch_addr = 1;
+
+    //on the next clk cycle should be in state WAIT fetch_addr=0
+
+    wait_request = 1; //you should state in state wait 
+
+    wait_request = 0 ; #20;
+
+    //you should see the addresss incremented 
+
+    #20; //back to Fetch ADDRESSS with the new addresss (incremented)
+
+
+
+
+
+
+
+
+end 
+
+
+
+handle_addr DUT (.CLK_22KHz(clk),.rst(rst),.wair_request(wair_request),.fetch_address(fetch_address));
+
+endmodule

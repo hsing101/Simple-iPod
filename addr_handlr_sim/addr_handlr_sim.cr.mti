@@ -1,0 +1,15 @@
+C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module handle_addr_tb
+
+Top level modules:
+	handle_addr_tb
+
+} {} {}} C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module handle_addr
+
+Top level modules:
+	handle_addr
+
+} {} {}}

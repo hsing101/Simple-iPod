@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+module clock_divider_tb;
+
+reg clk,reset;
+wire outclk;
+
+
+clock_divider DUT (.clk(clk),.reset(reset),.outclk(outclk));
+
+
+initial begin 
+    clk=0;
+    #18.5;
+    forever begin 
+        clk=1; #18.5;
+        clk=0; #18.5;
+    end 
+end 
+
+initial begin 
+    reset=1;
+
+    #25;
+
+    reset =0;
+end 
+
+
+
+
+
+endmodule

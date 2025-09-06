@@ -1,0 +1,15 @@
+C:/Users/User/Desktop/hw1/question7.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/hw1/question7.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module q7_circuit
+
+Top level modules:
+	q7_circuit
+
+} {} {}} C:/Users/User/Desktop/hw1/q7_circuit_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/hw1/q7_circuit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module q7_circuit_tb
+
+Top level modules:
+	q7_circuit_tb
+
+} {} {}}

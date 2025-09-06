@@ -1,0 +1,8 @@
+C:/Users/User/Desktop/lab2/template_de1soc/clock_divider_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/clock_divider_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_divider_tb
+
+Top level modules:
+	clock_divider_tb
+
+} {} {}}

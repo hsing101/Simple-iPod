@@ -1,0 +1,36 @@
+C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module audio_controller
+
+Top level modules:
+	audio_controller
+
+} {} {}} C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module audio_controller_tb
+
+Top level modules:
+	audio_controller_tb
+
+} {} {}} C:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module flash_memory
+
+Top level modules:
+	flash_memory
+
+} {} {}} C:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module handle_addr
+
+Top level modules:
+	handle_addr
+
+} {} {}} C:/Users/User/Desktop/lab2/template_de1soc/address_handling_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/User/Desktop/lab2/template_de1soc/address_handling_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module handle_addr_tb
+
+Top level modules:
+	handle_addr_tb
+
+} {} {}}

@@ -1,0 +1,27 @@
+module clock_divider (clk,reset,outclk);
+
+input clk,reset;
+output outclk;
+
+reg [31:0] counter;
+
+
+
+always_ff @(posedge clk) begin
+
+
+    if (reset) begin 
+            outclk<=0;
+            counter<=0;
+	end
+
+    else if (counter == 32'd2454) begin
+            outclk<= ~outclk;
+            counter <= 0;
+	end
+
+    else counter<= counter+ 1'b1;
+    
+end
+
+endmodule

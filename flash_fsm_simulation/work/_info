@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Desktop/lab2/clk_divider_sim
+vflash_memory
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1748910387
+!i10b 1
+!s100 lej=[GNDfR1lU>D[D`Bmo0
+I^;<H1==4MH@FGj@=Ge8_?2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 flash_memory_sv_unit
+S1
+Z2 dC:/Users/User/Desktop/lab2/flash_fsm_simulation
+w1748891575
+8C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory.sv
+FC:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1748910386.000000
+!s107 C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vflash_memory_tb
+R0
+!s110 1748910386
+!i10b 1
+!s100 ==2U293_^kd;ozDlo09W@0
+I7Sh>`=o0:GJ:AJ_Y]1OfH2
+R1
+!s105 flash_memory_tb_sv_unit
+S1
+R2
+w1748896566
+8C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory_tb.sv
+FC:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory_tb.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/flash_fsm_simulation/flash_memory_tb.sv|
+!i113 1
+R5
+R6

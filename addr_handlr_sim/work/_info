@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/User/Desktop/lab2/flash_fsm_simulation
+vhandle_addr
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1748910960
+!i10b 1
+!s100 M;Z[35i7K?W0f?Lfk3m:d1
+I4<LgUl656:YfBOmT=[jfZ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 address_handling_sv_unit
+S1
+Z3 dC:/Users/User/Desktop/lab2/addr_handlr_sim
+w1748908436
+8C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv
+FC:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1748910960.000000
+!s107 C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vhandle_addr_tb
+R0
+R1
+!i10b 1
+!s100 mQZof[JNhKnW@k33e^?cA1
+IH`L2XzIP2gOYeI<cib@nH0
+R2
+!s105 address_handling_tb_sv_unit
+S1
+R3
+w1748910954
+8C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv
+FC:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/addr_handlr_sim/address_handling_tb.sv|
+!i113 1
+R6
+R7

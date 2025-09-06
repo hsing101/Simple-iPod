@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/lab2/template_de1soc
+vaudio_controller_tb
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1748765891
+!i10b 1
+!s100 l10F[M869>[8zB6SaXzjP3
+I?A8bNSVjJjS5G6fWHFi5S0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fsm_manager_tb_sv_unit
+S1
+R0
+w1748765218
+8C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv
+FC:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1748765891.000000
+!s107 C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager_tb.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vflash_memory
+R1
+R2
+!i10b 1
+!s100 fHl[d:EhY3P1g>66f=KRm0
+I`XME8J8lB;JXh4k35zHHM0
+R3
+!s105 flash_memory_sv_unit
+S1
+R0
+w1748764783
+8C:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv
+FC:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/template_de1soc/flash_memory.sv|
+!i113 1
+R6
+R7
+vfsm_manager
+R1
+R2
+!i10b 1
+!s100 ;JSE1C;0m9_<<LE[eB9A<0
+Ia`EDOUbU;?I>TlV:?a_GG2
+R3
+!s105 fsm_manager_sv_unit
+S1
+R0
+w1748765591
+8C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv
+FC:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/template_de1soc/fsm_manager.sv|
+!i113 1
+R6
+R7
+vhandle_addr
+R1
+R2
+!i10b 1
+!s100 ;c8IzcUaYTbb8zhkT[?7L0
+I>;jhZ6BRf:VRijdT:?a5a0
+R3
+!s105 address_handling_sv_unit
+S1
+R0
+w1748762901
+8C:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv
+FC:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/template_de1soc/address_handling.sv|
+!i113 1
+R6
+R7

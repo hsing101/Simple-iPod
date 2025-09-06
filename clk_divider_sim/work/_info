@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vclock_divider
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1748857032
+!i10b 1
+!s100 hHk[fzIR@YZ@iZ9moHzXL2
+I@[X[^?CVKM5PF=mVI^F1:0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_divider_sv_unit
+S1
+Z3 dC:/Users/User/Desktop/lab2/clk_divider_sim
+w1748851285
+8C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv
+FC:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1748857032.000000
+!s107 C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vclock_divider_tb
+R0
+R1
+!i10b 1
+!s100 ]`464Hln9iK7RammGnkWf0
+Ib[KY29oN=WC9m`C;CM7^N3
+R2
+!s105 clock_divider_tb_sv_unit
+S1
+R3
+w1748857028
+8C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv
+FC:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/lab2/clk_divider_sim/clock_divider_tb.sv|
+!i113 1
+R6
+R7
+vq7_circuit
+R0
+Z8 !s110 1748858053
+!i10b 1
+!s100 =BiOPG<1a^2SSLVZ?1RS:1
+IZ<Gao4JoA<fH@gMY809c50
+R2
+!s105 question7_sv_unit
+S1
+R3
+w1747707563
+8C:/Users/User/Desktop/hw1/question7.sv
+FC:/Users/User/Desktop/hw1/question7.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1748858053.000000
+!s107 C:/Users/User/Desktop/hw1/question7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/hw1/question7.sv|
+!i113 1
+R6
+R7
+vq7_circuit_tb
+R0
+R8
+!i10b 1
+!s100 3Y=;Z?BfHEW3;W;<_ZoCJ3
+I:bQXBQXP5PGUiUjBnh9oY1
+R2
+!s105 q7_circuit_tb_sv_unit
+S1
+R3
+w1748858045
+8C:/Users/User/Desktop/hw1/q7_circuit_tb.sv
+FC:/Users/User/Desktop/hw1/q7_circuit_tb.sv
+L0 4
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/User/Desktop/hw1/q7_circuit_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/User/Desktop/hw1/q7_circuit_tb.sv|
+!i113 1
+R6
+R7

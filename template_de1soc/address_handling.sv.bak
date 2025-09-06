@@ -1,0 +1,75 @@
+module handle_addr(clk ,rst,wait_request,start,state,address,finish);
+
+parameter IDLE = 4'b0_000;
+parameter SEND_ADDR = 4'b1_001;
+parameter WAIT = 4'b0_010;
+parameter INCREMENT = 4'b0_011;
+
+
+//ask if it is okay to have address not as a state encoded bit ?
+
+input wait_request,clk,rst;
+input finish; // we will receive this from the flash fsm
+output fetch_address;
+output [3:0] state;
+output [22:0] address;
+
+output start;
+reg start;
+
+reg [22:0] address;
+reg [3:0] state;
+
+always_ff @(posedge clk or posedge rst) begin 
+
+    if (rst) begin 
+
+        state <= IDLE;
+        address<=0;
+
+    end 
+
+    else begin 
+
+        case(state) 
+        
+        IDLE :  begin 
+
+            address <=0 ;
+            state <= SEND_ADDR;
+                    
+        end 
+
+        SEND_ADDR : begin 
+
+            state<= WAIT;
+            //start <= 1'b1; // call the flash fsm to start its process
+
+        end 
+
+        WAIT : if(finish) state<= INCREMENT; //if flash fsm is finished increment the address
+               else state<=WAIT; //otherwise stay in wait state
+
+        INCREMENT : begin 
+            address <= address + 1;
+            state<=SEND_ADDR;
+        end 
+
+        default : state<=IDLE;
+
+        endcase
+    end
+
+end 
+
+assign start  = state[3]; //send signal to flash fsm to start
+
+
+
+endmodule
+
+ 
+
+
+
+
